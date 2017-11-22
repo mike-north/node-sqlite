@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "mikeworks-sqlite",
   "version": "2.8.1",
   "description": "SQLite client for Node.js applications with SQL-based migrations API",
@@ -34,43 +33,7 @@
   "main": "main.js",
   "jsnext:main": "main.mjs",
   "types": "main.d.ts",
-  "babel": {
-    "plugins": [
-      "transform-async-to-generator",
-      "transform-es2015-modules-commonjs"
-    ]
-  },
-  "eslintConfig": {
-    "parser": "babel-eslint",
-    "extends": "airbnb-base",
-    "rules": {
-      "no-restricted-syntax": "off",
-      "prefer-rest-params": "off",
-      "import/no-extraneous-dependencies": "off"
-    }
-  },
   "dependencies": {
     "sqlite3": "^3.1.8"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.22.2",
-    "babel-eslint": "^7.1.1",
-    "babel-plugin-external-helpers": "^6.22.0",
-    "babel-plugin-transform-async-to-generator": "^6.22.0",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.22.0",
-    "babel-preset-es2015": "^6.22.0",
-    "chai": "^3.5.0",
-    "del": "^2.2.2",
-    "eslint": "^3.14.1",
-    "eslint-config-airbnb-base": "^11.0.1",
-    "eslint-plugin-import": "^2.2.0",
-    "mocha": "^3.2.0",
-    "rollup": "^0.41.4",
-    "rollup-plugin-babel": "^2.7.1"
-  },
-  "scripts": {
-    "lint": "eslint src test tools",
-    "test": "node tools/build && mocha",
-    "build": "node tools/build"
   }
 }
