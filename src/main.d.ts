@@ -66,5 +66,4 @@ declare module 'sqlite' {
   }
 
   export function open(filename: string, options?: { mode?: number, verbose?: boolean, promise?: typeof Promise }): Promise<Database>;
-  export default { open }
 }
