@@ -1,6 +1,6 @@
 {
   "name": "sqlite",
-  "version": "2.8.1",
+  "version": "2.8.0",
   "description": "SQLite client for Node.js applications with SQL-based migrations API",
   "repository": "kriasoft/node-sqlite",
   "author": "Kriasoft <hello@kriasoft.com> (https://www.kriasoft.com)",
